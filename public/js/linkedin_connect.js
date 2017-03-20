@@ -11,6 +11,7 @@ linkedin.service('Linkedin', function () {
                     });
                 }, function (response) {
                     resolve(response);
+
                 });
             });
         }
